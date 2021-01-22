@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<title>Consultbiz</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;display=swap" rel="stylesheet">
+<style>
+.topnav a {
+	color: gray;
+	text-decoration: none;
+	font-family: Arial;
+	padding: 5px;
+	font-size: 10px;
+	position: relative;
+	left: 300px;
+}
+
+.topnav img {
+	position: relative;
+	left: 100px;
+}
+
+.one1 {
+	color: blue;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	position: relative;
+	top: -330px;
+	left: 130px;
+}
+.one2 {
+	color: black;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 34px;
+	position: relative;
+	top: -370px;
+	left: 130px;
+}
+.one3 {
+	color: black;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	position: relative;
+	top: -390px;
+	left: 130px;
+}
+.flex-container1 {
+	display: flex;
+}
+.flex-container1 div {
+	margin: 80px;
+	position: relative;
+	top: -270px;
+}
+.CSSGrid {
+	display: grid;
+	grid-gap: 10px;
+	position: relative;
+	top: -300px;
+}
+.span1 {
+	color: #1e86e3;
+}
+.flex-container2 {
+	display: flex;
+}
+.flex-container3 {
+	display: flex;
+	font-family: Arial;
+}
+.flex-container4 {
+	display: flex;
+	font-family: Arial;
+	font-weight: bold;
+}
+.flex-container4 div {
+	height: 230px;
+	background-color: white;
+	margin: 35px;
+	width: 150px;
+}
+.flex-container5 {
+	display: flex;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 500px;
+	left: 100px;
+}
+.flex-container5 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blockcontainer {
+	background-color: #18C852;
+	display: block;
+	padding: 3em 0;
+	text-align: center;
+	position: relative;
+	top: 600px;
+	left: 100px;
+}
+h4 {
+	color: white;
+	font-size: 23px;
+	margin: auto;
+	padding-bottom: 1em;
+}
+.blockcontainer > p {
+	color: white;
+	font-size: 12px;
+	margin: auto;
+	padding-bottom: 2em;
+}
+.blockcontainer > button {
+	background-color: #FFF;
+	border-style: none;
+	border-radius: 3px;	
+	padding: 10px 20px;	
+	margin: 0 0 0 -6em;
+}
+footer {
+	background-color: #0E151B;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	position: relative;
+	top: 600px;
+	left: 100px;
+}
+footer > h5 {
+	display: none;
+}
+footer > img {
+	margin: 0 0 0 20.5em;
+	height: 16px;
+	width: 105px;
+}
+footer > p {
+	color: #B4B5B6;
+	font-size: 12px;
+	position: inherit;
+}
+footer > img + p {
+	grid-area: 1/1;
+	text-align: center;
+	margin: auto;
+	padding: 0;
+}
+footer > ul {;
+	color: #B4B5B6;
+	font-size: 12px;
+	text-align: center;
+}
+.footnote1 {
+	grid-area: 2/1;
+	margin: auto;
+	padding: 0 0;
+}
+.footnote2 {
+	grid-area: 3/1;
+	margin: auto;
+	padding: 1em 0;
+}
+.footnote3 {
+	grid-area: 4/1;
+	margin: auto;
+	padding: 1em 0 1em 0;
+}
+footer > ul > li {
+	padding: 3px 0; 
+}
+footer > ul > li:first-child {
+	color: white;
+	font-size: 15px;
+	padding-bottom: 1em;
+}
+footer > p:last-child {
+	border: 1px solid rgba(180, 181, 182, .1);
+	color: white;
+	display: flex;
+	justify-content: center;
+	grid-area: 5/1;
+	margin: auto;
+	padding: 2.5em;
+	position: relative;
+}
+</style>
+</head>
+<body>
+	<div class="topnav">
+		<img src="images/logo.png" alt="logo" width="124" height="19">
+		<a href="#">HOME</a>
+		<a href="#">ABOUT US</a>
+		<a href="#">SERVICES</a>
+		<a href="#">PORTFOLIO</a>
+		<a href="#">PRICING</a>
+		<a href="#">TEAM</a>
+		<a href="#">CONTACT</a>
+	</div>
+	<div class="one">
+		<img src="images/hero.jpg" alt="hero">
+		<p class="one1">CREATIVE AGENCY</p>
+		<p class="one2">Training company make <br> your dream</p>
+		<p class="one3">Voluptatibus laboriosam repudandae architecto ratione magni quidem <br>
+facere cumque quod, perferendis, molestiae ab sit laudantium distictio.</p>
+		<input type="button" style="background-color:#1e86e3;color:white;border-radius:10px;height: 45px;width: 120px;position: relative;top:-380px;left:130px" onclick="myFunction()" value="Get Started Now">
+	</div>
+	<div class="flex-container1">
+		<div>
+			<img src="images/megaphoneicon.png" alt="Email">
+			<p style="font-family: Arial;"><strong>E-mail Marketing</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Etiam vulputate tempus mi, ac vehicula justo. Sed nec ultricies velit. Nulla quis</p>
+		</div>
+		<div>
+			<img src="images/chaticon.png" alt="Quick Support">
+			<p style="font-family: Arial;"><strong>Quick Support</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Etiam vulputate tempus mi, ac vehicula justo. Sed nec ultricies velit. Nulla quis</p>
+		</div>
+		<div>
+			<img src="images/targeticon.png" alt="Web Analytics">
+			<p style="font-family: Arial;"><strong>Web Analytics</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Etiam vulputate tempus mi, ac vehicula justo. Sed nec ultricies velit. Nulla quis</p>
+		</div>
+		<div>
+			<img src="images/lighbulbicon.png" alt="Keyword Targeting">
+			<p style="font-family: Arial;"><strong>Keyword Targeting</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Etiam vulputate tempus mi, ac vehicula justo. Sed nec ultricies velit. Nulla quis</p>
+		</div>
+	</div>
+	<div style="position:relative;top:-330px;">
+		<p style="font-family:Arial;text-align:center;"><strong>OUR CONSULTING SERVICES</strong></p>
+		<p style="font-family: Arial;font-size:10px;color:gray;text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+	</div>
+	<div class="CSSGrid">
+		<div style="grid-column: 1;grid-row: 1;text-align: center;padding: 80px;">
+			<img src="images/piggybankicon.png" alt="BUSINESS OPPORTUNITIES">
+			<p style="font-family: Arial;font-size:10px;"><strong>BUSINESS OPPORTUNITIES</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doadiadpisicing elit, sed do pisicing elit, sed do</p>
+			<input type="button" style="background-color:#1e86e3;color:white;height: 45px;width: 120px;" value="READ MORE">
+		</div>
+		<div style="grid-column: 2;grid-row: 1;background-color:#1e86e3;text-align: center;padding: 80px;">
+			<img src="images/growthicon.png" alt="FINANCE PROJECTIONS">
+			<p style="font-family: Arial;font-size:10px;color: white;"><strong>FINANCE PROJECTIONS</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doadiadpisicing elit, sed do pisicing elit, sed do</p>
+			<input type="button" style="background-color:white;color:black;height: 45px;width: 120px;" value="READ MORE">
+		</div>
+		<div style="grid-column: 3;grid-row: 1;text-align: center;padding: 80px;">
+			<img src="images/piggybankicon.png" alt="BUSINESS OPPORTUNITIES">
+			<p style="font-family: Arial;font-size:10px;"><strong>BUSINESS OPPORTUNITIES</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doadiadpisicing elit, sed do pisicing elit, sed do</p>
+			<input type="button" style="background-color:#1e86e3;color:white;height: 45px;width: 120px;" value="READ MORE">
+		</div>
+		<div style="grid-column: 1;grid-row: 2;background-color:#1e86e3;text-align: center;padding: 80px;">
+			<img src="images/growthicon.png" alt="FINANCE PROJECTIONS">
+			<p style="font-family: Arial;font-size:10px;color: white;"><strong>FINANCE PROJECTIONS</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doadiadpisicing elit, sed do pisicing elit, sed do</p>
+			<input type="button" style="background-color:white;color:black;height: 45px;width: 120px;" value="READ MORE">
+		</div>
+		<div style="grid-column: 2;grid-row: 2;text-align: center;padding: 80px;">
+			<img src="images/piggybankicon.png" alt="BUSINESS OPPORTUNITIES">
+			<p style="font-family: Arial;font-size:10px;"><strong>BUSINESS OPPORTUNITIES</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doadiadpisicing elit, sed do pisicing elit, sed do</p>
+			<input type="button" style="background-color:#1e86e3;color:white;height: 45px;width: 120px;" value="READ MORE">
+		</div>
+		<div style="grid-column: 3;grid-row: 2;background-color:#1e86e3;text-align: center;padding: 80px;">
+			<img src="images/growthicon.png" alt="FINANCE PROJECTIONS">
+			<p style="font-family: Arial;font-size:10px;color: white;"><strong>FINANCE PROJECTIONS</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doadiadpisicing elit, sed do pisicing elit, sed do</p>
+			<input type="button" style="background-color:white;color:black;height: 45px;width: 120px;" value="READ MORE">
+		</div>
+	</div>
+	<img src="images/peoplebkg.png" alt="peoplebkg" class="center">
+	<div>
+		<p style="font-family:Arial;text-align:center;"><strong>OUR PORTFOLIO</strong></p>
+		<p style="font-family: Arial;font-size:10px;color:gray;text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+	</div>
+	<p style="font-family:Arial;text-align:center;font-size:10px"><strong><span class="span1">ALL WORKS</span> &nbsp; &nbsp; FINANCIAL &nbsp; &nbsp; MARKETING &nbsp; &nbsp; OGISTICS</strong></p>
+	<div class="flex-container2">
+		<img src="images/handshaking.jpg" alt="handshaking">
+		<img src="images/femalesmiling.jpg" alt="femalesmiling">
+		<img src="images/personshowing.jpg" alt="personshowing">
+	</div>
+	<div>
+		<p style="font-family:Arial;text-align:center;"><strong>OUR PRICING PLAN</strong></p>
+		<p style="font-family: Arial;font-size:10px;color:gray;text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+	</div>
+	<div class="flex-container3">
+		<div style="background-color: #16c852;color: white;width: 250px;height: 400px;margin: 10px;">
+			<br>
+			<p style="text-align: center">Basic</p>
+			<p style="text-align: center"><span style="font-size: 20px">$39.99</span><span style="font-size: 10px">/month</span></p>
+			<br><br>
+			<p style="font-size: 12px;text-align: center">5 Analytics Campaigns</p>
+			<p style="font-size: 12px;text-align: center">300 Keywords</p>
+			<p style="font-size: 12px;text-align: center">250,000 Crawled Pages</p>
+			<p style="font-size: 12px;text-align: center">15 Social Accounts</p>
+			<br><br>
+			<input type="button" style="border: 2px solid white;background-color:#16c852;color:white;height: 45px;width: 120px;border-radius: 4px;" class="center" value="Purchase Now">
+		</div>
+		<div style="background-color: #232239;color: white;width: 250px;height: 400px;margin: 10px;">
+			<br>
+			<p style="text-align: center">Standard</p>
+			<p style="text-align: center"><span style="font-size: 20px">$49.99</span><span style="font-size: 10px">/month</span></p>
+			<br><br>
+			<p style="font-size: 12px;text-align: center">10 Analytics Campaigns</p>
+			<p style="font-size: 12px;text-align: center">400 Keywords</p>
+			<p style="font-size: 12px;text-align: center">350,000 Crawled Pages</p>
+			<p style="font-size: 12px;text-align: center">25 Social Accounts</p>
+			<br><br>
+			<input type="button" style="border: 2px solid white;background-color:#232239;color:white;height: 45px;width: 120px;border-radius: 4px;" class="center" value="Purchase Now">
+		</div>
+		<div style="background-color: #1e86e3;color: white;width: 250px;height: 400px;margin: 10px;">
+			<br>
+			<p style="text-align: center">Unlimited</p>
+			<p style="text-align: center"><span style="font-size: 20px">$79.99</span><span style="font-size: 10px">/month</span></p>
+			<br><br>
+			<p style="font-size: 12px;text-align: center">15 Analytics Campaigns</p>
+			<p style="font-size: 12px;text-align: center">500 Keywords</p>
+			<p style="font-size: 12px;text-align: center">550,000 Crawled Pages</p>
+			<p style="font-size: 12px;text-align: center">35 Social Accounts</p>
+			<br><br>
+			<input type="button" style="border: 2px solid white;background-color:#1e86e3;color:white;height: 45px;width: 120px;border-radius: 4px;" class="center" value="Purchase Now">
+		</div>
+	</div>
+	<div style="background-color: #f3f4f3;width: 1200px;height: 400px;position: absolute;left: 10%">
+		<div>
+			<br>
+			<p style="font-family:Arial;text-align:center;"><strong>OUR TEAM MEMBERS</strong></p>
+			<p style="font-family: Arial;font-size:10px;color:gray;text-align:center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+		</div>
+		<div class="flex-container4">
+			<div>
+				<img src="images/nilla.png" alt="nilla" width="106" height="178" class="center">
+				<p style="font-size: 7px;font-family:Arial;text-align:center;">NILLA DOE</p>
+				<p style="font-size: 7px;font-family:Arial;text-align:center;color: #88bef0">FINANCE SUPPORT</p>
+			</div>
+			<div>
+				<img src="images/marta.png" alt="marta" width="106" height="178" class="center">
+				<p style="font-size: 7px;font-family:Arial;text-align:center;">MARTA SMITH</p>
+				<p style="font-size: 7px;font-family:Arial;text-align:center;color: #88bef0">FINANCE SUPPORT</p>
+			</div>
+			<div>
+				<img src="images/michael.png" alt="michael" width="106" height="178" class="center">
+				<p style="font-size: 7px;font-family:Arial;text-align:center;">MICHAEL DOE</p>
+				<p style="font-size: 7px;font-family:Arial;text-align:center;color: #88bef0">OWNER CONSULTING</p>
+			</div>
+			<div>
+				<img src="images/tisa.png" alt="tisa" width="106" height="178" class="center">
+				<p style="font-size: 7px;font-family:Arial;text-align:center;">TISA DOE</p>
+				<p style="font-size: 7px;font-family:Arial;text-align:center;color: #88bef0">FINANCE SUPPORT</p>
+			</div>
+		</div>
+	</div>
+	<aside class="flex-container5">
+		<img src="images/imageavatar.png" alt="avatar" width="80" height="80">
+		<br>
+		<p style="font-size: 12px;font-family:Arial;text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br> nostrud exercitation ullamco</p>
+		<br>
+		<p style="font-size: 12px;font-family:Arial;text-align: center;">JOHN DOE SEO</p>
+		<img src="images/stars.png" alt="stars">
+	</aside>
+	<section class="blockcontainer">
+		<h4>Are You Ready to Promote Your Website?</h4>
+		<p>Don't wait! Your website must be visible to many companies that search for you on the web!</p>
+		<button>Get Started Now</button>
+	</section>
+	<footer>
+		<h5>ConsultBiz</h5>
+		<p> Aenean lacinia bibendum nulla sed <br> consectetur. Aenean eu leo quam.</p>
+		<ul class="footnote1">
+			<li>SUPPORT</li>
+			<li>Help Center</li>
+			<li>Get Started</li>
+			<li>Contact Us</li>
+		</ul>
+		<ul class="footnote2">
+			<li>ABOUT US</li>
+			<li>About Us</li>
+			<li>Terms of Us</li>
+			<li>Privacy Policy</li>
+		</ul>
+		<ul class="footnote3">
+			<li>QUICK CONTACT</li>
+			<li>USA & CAN: 1-888-123-4567</li>
+			<li>Address: 34 Brokel Rd, NY</li>
+			<li>Web: themeturn.com</li>
+		</ul>
+		<p>©ConsultBiz</p>
+	</footer>
+	<script>
+function myFunction() {
+  alert("50% off discount for all plans!");
+}
+</script>
+</body>
+</html>
